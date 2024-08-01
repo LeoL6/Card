@@ -13,7 +13,7 @@ body {
     display: none;
   }
   
-  .card {
+  .valentines-day-card {
     position: relative;
     width: 300px;
     height:300px;
@@ -117,6 +117,33 @@ body {
     box-shadow:30px 0 #ba1c1c;
   }
 
+  .text-one {
+    position: absolute;
+    color: #333;
+    font-size: 30px;
+    top:30px;
+    width:300px;
+    text-align: center;
+  }
+  
+  .text-one:before, .text-one:after {
+    position: absolute;
+    left:5px;
+    text-align: center;
+    width:300px;
+  }
+  
+  .text-one:before {
+    content:"Valentine's";
+    top:30px;
+    color: #d04e4e;
+  }
+  
+  .text-one:after {
+    content:"day!";
+    top:60px;
+  }
+  
   .heart {
     position: relative;
     background-color: #d04e4e;
@@ -128,14 +155,14 @@ body {
     animation: .8s beat infinite;
   }
     
-  heart:before, .heart:after {
+  .heart:before, .heart:after {
     content:"";
     background-color: #d04e4e;
     border-radius:50%;
     height: 40px;
     width: 40px;
     position: absolute;
-  }
+    }
     
   .heart:before {
     top:-20px;
