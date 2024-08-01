@@ -127,7 +127,7 @@ body {
     left:230px;
     transform: rotate(-45deg);
     animation: .8s beat infinite;
-    z-index: 6;
+    z-index: 7;
   }
     
   .heart:before, .heart:after {
@@ -137,19 +137,19 @@ body {
     height: 40px;
     width: 40px;
     position: absolute;
-    z-index: 6;
+    z-index: 7;
   }
     
   .heart:before {
     top:-20px;
     left:0;
-    z-index: 6;
+    z-index: 7;
   }
     
   .heart:after {
     left:20px;
     top:0;
-    z-index: 6;
+    z-index: 7;
   }
   
   .bolded {
