@@ -122,8 +122,9 @@ body {
     background-color: #d04e4e;
     height: 40px;
     width:40px;
-    top: -45px;
-    left:230px;
+    top: 50px;
+    left:130px;
+    
     transform: rotate(-45deg);
     animation: .8s beat infinite;
     z-index: 100;
@@ -153,6 +154,14 @@ body {
   
   .bolded {
     font-weight: bolder;
+  }
+
+  .second {
+    font-size: 18px;
+  }
+
+  .third {
+    font-size: 20px;
   }
 
   .lovey-colors {
